@@ -1,5 +1,6 @@
 # PROJET ROBOT SUMO :
 
+Librairies Arduino écrites en C++ pour Projet Robot Sumo.
 Le robot se combat contre un autre robot dans une arène au sol noir et délimité par un ligne blanche.
 Un capteur infrarouge permet de détecter une ligne blanche tandis qu'un capteur ultrason permet de
 détecter la présence d'un autre robot.
