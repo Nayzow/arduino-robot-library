@@ -55,19 +55,19 @@ const byte MAX_SPEED = 255;
 
 ## MOUVEMENTS DU ROBOT :
 
-```c++
-void moveRight(speed) -> Le robot tourne à droite.
-void moveLeft(speed) -> Le robot tourne à gauche.
-void moveForward(speed) -> Le robot avance.
-void moveBackward(speed) -> Le robot recule.
-void stopMove() -> Le robot se stop.
+```
+void moveRight(speed) : Le robot tourne à droite.
+void moveLeft(speed) : Le robot tourne à gauche.
+void moveForward(speed) : Le robot avance.
+void moveBackward(speed) : Le robot recule.
+void stopMove() : Le robot se stop.
 ```
 
 ## RECUPERER LES INFOS CAPTEURS :
 
-```c++
-bool checkBorder() -> Renvoie True si le capteur infrarouge détecte du blanc
-bool checkEnnemy() -> Renvoie True si le capteur ultrason détecte une présence
+```
+bool checkBorder() : Renvoie True si le capteur infrarouge détecte du blanc
+bool checkEnnemy() : Renvoie True si le capteur ultrason détecte une présence
 ```
 
 ## UTILISER L'OBJET ROBOT
